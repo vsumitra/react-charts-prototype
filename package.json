@@ -1,0 +1,51 @@
+{
+  "name": "advance-react",
+  "version": "1.0.0",
+  "description": "Advance React",
+  "main": "lib/server.js",
+  "repository": "https://github.com/vsumitra/advance-react",
+  "author": "vsumitra <vsumitra@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-plugin-react": "^7.3.0",
+    "jest": "^21.1.0",
+    "react-test-renderer": "^15.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "highcharts-exporting": "^0.1.2",
+    "highcharts-more": "^0.1.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-highcharts": "^12.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-combine-loaders": "^2.0.3"
+  }
+}

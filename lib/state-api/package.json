@@ -1,0 +1,9 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State API",
+  "main": "lib/index.js",
+  "repository": "https://github.com/vsumitra/state-api",
+  "author": "Vala Sumitra",
+  "license": "MIT"
+}
