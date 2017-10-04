@@ -38,6 +38,7 @@
     "express": "^4.15.4",
     "highcharts-exporting": "^0.1.2",
     "highcharts-more": "^0.1.2",
+    "moment": "^2.18.1",
     "pondjs": "^0.8.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
