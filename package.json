@@ -36,6 +36,7 @@
     "css-loader": "^0.28.7",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.1",
     "highcharts-exporting": "^0.1.2",
     "highcharts-more": "^0.1.2",
     "moment": "^2.18.1",
