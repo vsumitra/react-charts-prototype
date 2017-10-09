@@ -1,74 +1,74 @@
 {
-    "name": "react-timeseries-charts",
-    "version": "0.12.8",
-    "description": "Declarative timeseries charts",
-    "keywords": [
-        "d3",
-        "charts",
-        "react",
-        "timeseries"
-    ],
-    "homepage": "http://software.es.net/react-timeseries-charts",
-    "main": "lib/index.js",
-    "author": "ESnet Tools Team <tools@es.net>",
-    "repository": "esnet/react-timeseries-charts",
-    "bugs": {
-        "url": "https://github.com/esnet/react-timeseries-charts/issues"
-    },
-    "license": "BSD-3-Clause-LBNL",
-    "scripts": {
-        "webpack": "webpack -wd"
-    },
-    "babel": {
-        "presets": [
-            "react",
-            "env",
-            "stage-0"
-        ]
-    },
-    "dependencies": {
-        "array.prototype.fill": "^1.0.2",
-        "babel-runtime": "^6.26.0",
-        "colorbrewer": "^1.0.0",
-        "d3-axis": "^1.0.8",
-        "d3-ease": "^1.0.3",
-        "d3-format": "^1.2.0",
-        "d3-interpolate": "^1.1.5",
-        "d3-scale": "^1.0.6",
-        "d3-scale-chromatic": "^1.1.1",
-        "d3-selection": "^1.1.0",
-        "d3-shape": "^1.2.0",
-        "d3-time-format": "^2.0.5",
-        "d3-transition": "^1.1.0",
-        "flexbox-react": "^4.4.0",
-        "invariant": "^2.2.2",
-        "merge": "^1.2.0",
-        "moment": "^2.18.1",
-        "moment-duration-format": "^1.3.0",
-        "prop-types": "^15.6.0",
-        "underscore": "^1.8.3"
-    },
-    "devDependencies": {
-        "babel-cli": "^6.5.1",
-        "babel-core": "^6.25.0",
-        "babel-eslint": "^8.0.1",
-        "babel-polyfill": "^6.23.0",
-        "babel-preset-env": "^1.6.0",
-        "babel-preset-react": "^6.24.1",
-        "babel-preset-stage-0": "^6.24.1",
-        "eslint": "^4.8.0",
-        "eslint-config-react-app": "^2.0.1",
-        "eslint-plugin-flowtype": "^2.33.0",
-        "eslint-plugin-import": "^2.2.0",
-        "eslint-plugin-jsx-a11y": "^6.0.2",
-        "eslint-plugin-react": "^7.4.0",
-        "pondjs": "^0.8.7",
-        "react": "^15.6.1",
-        "react-dom": "^15.6.1",
-        "webpack": "^3.6.0"
-    },
-    "peerDependencies": {
-        "pondjs": "^0.8.7",
-        "react": "^15.6.1"
-    }
+  "name": "react-timeseries-charts",
+  "version": "0.12.8",
+  "description": "Declarative timeseries charts",
+  "keywords": [
+    "d3",
+    "charts",
+    "react",
+    "timeseries"
+  ],
+  "homepage": "http://software.es.net/react-timeseries-charts",
+  "main": "lib/index.js",
+  "author": "ESnet Tools Team <tools@es.net>",
+  "repository": "esnet/react-timeseries-charts",
+  "bugs": {
+    "url": "https://github.com/esnet/react-timeseries-charts/issues"
+  },
+  "license": "BSD-3-Clause-LBNL",
+  "scripts": {
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-0"
+    ]
+  },
+  "dependencies": {
+    "array.prototype.fill": "^1.0.2",
+    "babel-runtime": "^6.26.0",
+    "colorbrewer": "^1.0.0",
+    "d3-axis": "^1.0.8",
+    "d3-ease": "^1.0.3",
+    "d3-format": "^1.2.0",
+    "d3-interpolate": "^1.1.5",
+    "d3-scale": "^1.0.6",
+    "d3-scale-chromatic": "^1.1.1",
+    "d3-selection": "^1.1.0",
+    "d3-shape": "^1.2.0",
+    "d3-time-format": "^2.0.5",
+    "d3-transition": "^1.1.0",
+    "flexbox-react": "^4.4.0",
+    "invariant": "^2.2.2",
+    "merge": "^1.2.0",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0",
+    "prop-types": "^15.6.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^8.0.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "pondjs": "^0.8.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.6.0"
+  },
+  "peerDependencies": {
+    "pondjs": "^0.8.7",
+    "react": "^15.6.1"
+  }
 }
