@@ -1,9 +1,9 @@
 {
     "name": "react-charts-prototype",
     "version": "1.0.0",
-    "description": "Advance React",
+    "description": "React chart prototype.",
     "main": "lib/server.js",
-    "repository": "https://github.com/vsumitra/advance-react",
+    "repository": "https://github.com/vsumitra/react-charts-prototype",
     "author": "vsumitra <vsumitra@gmail.com>",
     "license": "MIT",
     "scripts": {
