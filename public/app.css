@@ -53,3 +53,12 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+#chart-tooltip-arrow:before {
+  position: absolute;
+  border-width: 5px 5px 0;
+  border-style: solid;
+  content: '';
+  border-color: transparent;
+  margin: 25px 0px 0px -3px;
+}
