@@ -53,3 +53,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.print-button {
+  background-image: url(/images/icons-table.png);
+  height: 16px;
+  width: 16px;
+  background-position: -55px -161px;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  display: inline-block;
+  vertical-align: text-bottom;
+}
